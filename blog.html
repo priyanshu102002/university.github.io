@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+
+    <!---------- our code ----------->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificates and Online Programmer for 2021</h1>
+
+    </section>
+
+    <!-- ----- blog page content ---------- -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="img/certificate.jpg">
+          <h2>Our Certificates and Online Programmes for 2021</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex repudiandae nemo magni iusto ab illum dolorum numquam iure eaque perferendis assumenda molestiae consectetur voluptas fuga, esse velit odio eius dolore!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis non explicabo, rerum commodi itaque vero vel neque iure soluta quia voluptatem culpa praesentium odio eaque nulla voluptas tempora repellat fuga quibusdam! Dolorem nam sed iure aut in similique fugiat inventore quos amet dolorum, nostrum corrupti error maiores nisi quia beatae! Reiciendis, veniam itaque.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facere magnam accusantium magni laudantium amet voluptatem nesciunt nulla placeat ipsum velit, esse sapiente nisi, iusto pariatur. Voluptatibus libero hic assumenda.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed corrupti repellendus labore non quod sequi, aliquam quis doloribus explicabo autem repellat dolore dolorum laboriosam id velit, facere, consequatur nemo atque cum facilis aperiam ratione ipsum deleniti. Sed voluptate nam, ex blanditiis ut ab vitae nisi non cum quaerat id ea odit maiores voluptatum?</p>
+
+          <!-- ========= Comment box =======  -->
+          <div class="comment-box">
+            <h3>Leave Us Comment</h3>
+
+            <form class="Comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+      <!-- =================================== -->
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Businnes Analatics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Scienties</span>
+            <span>30</span>
+          </div>
+          <div>
+            <span>Software Engineering</span>
+            <span>27</span>
+          </div>
+          <div>
+            <span>Artificial Intelligence</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>Marketing Executive</span>
+            <span>35</span>
+          </div>
+          <div>
+            <span>AutoCad</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>19</span>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    
+   
+
+      <!----------- Footer ---------->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt earum eligendi eius saepe cupiditate commodi vitae,<br> cum accusamus quos similique officiis nam amet iure iusto at hic ducimus quam placeat?</p>
+      <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-github" ></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o" ></i> first website</p>
+
+    </section>
+
+
+
+    <!------------- Javascript for toggel menu ---------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
